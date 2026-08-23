@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Factor Magazine | Edición 15 - Septiembre</title>
+
+    <meta name="description" content="Factor Magazine - Edición 15, septiembre. Revista matemática digital.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         PORTADA / ENCABEZADO
+    ========================== -->
+
+    <header class="magazine-header">
+
+        <div class="header-content">
+
+            <div class="brand">
+                <span class="brand-main">FACTOR</span>
+                <span class="brand-sub">MAGAZINE</span>
+            </div>
+
+            <div class="edition">
+                EDICIÓN 15
+                <span>SEPTIEMBRE</span>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         VISOR DE LA REVISTA
+    ========================== -->
+
+    <main>
+
+        <section class="reader-section">
+
+            <div class="reader-container">
+
+                <!-- Botón anterior -->
+                <button
+                    id="prevBtn"
+                    class="nav-button prev"
+                    aria-label="Página anterior">
+                    &#10094;
+                </button>
+
+
+                <!-- Revista -->
+
+                <div class="magazine-wrapper">
+
+                    <div id="book" class="book">
+
+                        <!-- Las páginas se generan automáticamente
+                             mediante JavaScript -->
+
+                    </div>
+
+                </div>
+
+
+                <!-- Botón siguiente -->
+
+                <button
+                    id="nextBtn"
+                    class="nav-button next"
+                    aria-label="Página siguiente">
+                    &#10095;
+                </button>
+
+            </div>
+
+
+            <!-- =========================
+                 CONTROLES
+            ========================== -->
+
+            <div class="controls">
+
+                <button id="firstBtn" title="Primera página">
+                    ⏮
+                </button>
+
+                <button id="prevSmallBtn" title="Página anterior">
+                    ◀
+                </button>
+
+                <div class="page-counter">
+                    <span id="currentPage">1</span>
+                    <span class="separator">/</span>
+                    <span id="totalPages">20</span>
+                </div>
+
+                <button id="nextSmallBtn" title="Página siguiente">
+                    ▶
+                </button>
+
+                <button id="lastBtn" title="Última página">
+                    ⏭
+                </button>
+
+                <button id="zoomOutBtn" title="Alejar">
+                    −
+                </button>
+
+                <button id="zoomInBtn" title="Acercar">
+                    +
+                </button>
+
+                <button id="fullscreenBtn" title="Pantalla completa">
+                    ⛶
+                </button>
+
+            </div>
+
+
+            <!-- =========================
+                 MINIATURAS
+            ========================== -->
+
+            <div class="thumbnails-container">
+
+                <div id="thumbnails" class="thumbnails">
+
+                    <!-- Se generan mediante JavaScript -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         INFORMACIÓN
+    ========================== -->
+
+    <section class="about">
+
+        <div class="about-content">
+
+            <span class="section-label">FACTOR MAGAZINE</span>
+
+            <h1>
+                Edición 15
+            </h1>
+
+            <p>
+                Septiembre
+            </p>
+
+            <div class="math-decoration">
+                ∑ &nbsp; π &nbsp; √ &nbsp; x² &nbsp; ∞
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <strong>FACTOR MAGAZINE</strong>
+
+            <span>Edición 15 · Septiembre</span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
